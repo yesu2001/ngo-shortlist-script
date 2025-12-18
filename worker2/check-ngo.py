@@ -37,7 +37,7 @@ GEMINI_API_KEY = "AIzaSyDcC3ai6vSUvBd8eW8F9ZlbgDpP1bbhEiE"     # used by google-
 GOOGLE_API_KEY = "AIzaSyCO9aEjMNsPOlUHrcSUGenq0PZilcJvPug"
 CUSTOM_SEARCH_ENGINE_ID = "5545960a53a594daa"
 # GEMINI_MODEL = "gemini-1.5-pro"  
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-2.5-flash-lite"
 
 NEWSDATA_API_KEY = "pub_beb70c97d12c44118d0803a81f0c0b5b"  # Optional
 
