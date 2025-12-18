@@ -501,14 +501,13 @@ def run_pipeline(input_excel, start_row=0, end_row=None):
 
     return shortlisted, excluded
 
-
 # -----------------------------
 # CLI entry
 # -----------------------------
 if __name__ == "__main__":
     # Example usage: python check_ngo.py
-    input_file = "Cleaned_NGO_Data.xlsx"
+    input_file = "Cleaned_NGO_Data-2.xlsx"
     if not os.path.exists(input_file):
         raise FileNotFoundError(f"Input file not found: {input_file}")
-    run_pipeline(input_file,1999,10000)
+    run_pipeline(input_file,10000,20000)
 
